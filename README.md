@@ -17,7 +17,7 @@ No specific prerequisites are needed to run this project. It is a static HTML an
 ### Installation
 
 Simply download or clone the repository to your local machine.
-git clone https://github.com/Marsi591/DISPLAY-SITE.git
+
 
 Open the `index.html` file in a web browser to view the items list.
 
