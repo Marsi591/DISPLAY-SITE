@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items List</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        header {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #3498db;
+            font-size: 36px;
+        }
+
+        .category {
+            width: calc(33.333% - 20px);
+            margin-bottom: 20px;
+        }
+
+        .item {
+            background-color: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .item:hover {
+            transform: translateY(-5px);
+        }
+
+        .item h2 {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .item p {
+            color: #ccc;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .item button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .item button:hover {
+            background-color: #267bb5;
+        }
+
+        footer {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            color: #ccc;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Items List</h1>
+    </header>
+
+    <div class="category">
+        <div class="item">
+            <h2>Item 1</h2>
+            <p class="statussafe">Status:</p>
+            <p>Description 1</p>
+            <a href="https://google.com" download><button>Download</button></a>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="item">
+            <h2>Item 2</h2>
+            <p class="statusdetec">Status:</p>
+            <p>Description 2</p>
+            <a href="https://google.com" download><button>Download</button></a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; <?php echo date("Y"); ?> YOUR NAME
+    </footer>
+</body>
+
+</html>
