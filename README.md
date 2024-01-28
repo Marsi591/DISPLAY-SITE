@@ -28,3 +28,6 @@ You can customize the content and styles of the page by modifying the HTML and C
 - **HTML**: Open `index.html` and make changes to the structure and content as needed.
 - **CSS**: Open the `<style>` section in `index.html` and adjust the styles according to your preferences.
 
+## PREVIEW
+![image](https://github.com/Marsi591/DISPLAY-SITE/assets/118113258/9b12f46a-df97-4dbe-a972-8d3b2de55154)
+
